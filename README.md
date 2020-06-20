@@ -9,11 +9,9 @@ This repo contains a script to switch in between trilingual inputs. The script c
 2. Go to `Complex modifications` tab;
 3. On the bottom-left corner, click `(+) Add rule`;
 4. On the top of the new window that opened, click `(cloud) Import more rules from the Internet (open a web browser)`;
-5. Go to any script, click on the arrow to the right of the blue `Import` button, and find `Edit JSON (Open external site)`; [^1]
+5. Go to any script, click on the arrow to the right of the blue `Import` button, and find `Edit JSON (Open external site)`; (There's gotta be a better way to do this, but this is at least working)
 6. In the new page that opened, find a text box with `Paste existing modification here to edit`, paste the content of `script.txt` in this GitHub repo in that text box;
 7. Click `Install!` and follow the new pop-ups in Karabiner to enable the shortcuts. 
-
-[^1]: There's gotta be a better way to do this, but this is at least working
 
 ## How to tweak
 
