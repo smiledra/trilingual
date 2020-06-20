@@ -3,6 +3,10 @@
 ## About
 This repo contains a script to switch in between trilingual inputs. The script can be used conveniently by inporting it in [karabiner](https://karabiner-elements.pqrs.org/).
 
+## What it does
+
+As is documented in the `script.txt` file, this allows `Right_Option+1` to switch to the English input method, `Right_Option+2` to switch to Chinese, and `Right_Option+3` to Japanese.
+
 ## How to use
 
 1. When Karabiner is running, go to `Preferences`;
