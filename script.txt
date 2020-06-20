@@ -1,0 +1,74 @@
+{
+  "title": "Trilingual input methods switching",
+  "rules": [
+    {
+      "description": "Use Right_option+1/2/3 to switch input method to English, Chinese, Japanese(Hiragana), respectively.",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "1",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "en"
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "2",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "select_input_source": {
+                  "input_source_id": "com.apple.inputmethod.SCIM.ITABC",
+                  "language": "zh-Hans"
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "ja"
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
